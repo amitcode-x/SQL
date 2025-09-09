@@ -1,0 +1,5 @@
+-- WAQTD the 3rd highest salary from the EMP table.
+
+SELECT MAX(SAL) FROM EMP
+WHERE SAL < (  SELECT MAX(SAL)  FROM EMP
+WHERE SAL <( SELECT MAX(SAL) FROM EMP));
