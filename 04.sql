@@ -1,0 +1,14 @@
+
+-- WAQTD employees who belong to departments whose location is the same as MILLER’s department.
+SELECT *
+FROM EMP
+ WHERE DEPTNO IN (
+ SELECT DEPTNO
+ FROM DEPT 
+ WHERE LOC IN(
+ SELECT LOC 
+ FROM DEPT
+ WHERE DEPTNO IN (
+ SELECT DEPTNO
+ FROM EMP
+ WHERE ENAME = 'MILLER')));
