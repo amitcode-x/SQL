@@ -1,0 +1,6 @@
+-- WAQTD adams manager's manager name
+ select ename
+ FROM EMP
+ WHERE EMPNO IN (SELECT MGR FROM EMP
+ WHERE EMPNO IN (SELECT MGR FROM EMP
+ WHERE ENAME = 'ADAMS'));
