@@ -8,6 +8,6 @@ select *
       select deptno
         from emp
        group by deptno
-      having max(sal) > 1500
+      having MIN(sal) > 1500
    )
 );
