@@ -1,4 +1,4 @@
--- Write a query to display the employee names and their actual manager names.
+-- Write a query to display the employee names and their actual manager names
 select e1.ename,
        e2.ename
   from emp e1,
