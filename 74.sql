@@ -1,4 +1,4 @@
--- Write a query to display the   employee names and their manager’s hire date if the employee was hired before 01-DEC-1982. ✅
+-- Write a query to display the   employee names and their manager’s hire date if the employee was hired before 01-DEC-1982.   ✅
 select e1.ename,
        e2.hiredate
   from emp e1,
