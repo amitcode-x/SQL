@@ -1,4 +1,4 @@
----WAQTD employees who work in the same department as MILLER.
+---WAQTD employees who  work in the same department as MILLER.
 
 
 select ename,
