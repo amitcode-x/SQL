@@ -1,4 +1,4 @@
----WAQTD employees and their department location where salary is greater than 1500.
+---WAQTD employeesn and their department location where salary is greater than 1500.
 
 select ename,
        loc
