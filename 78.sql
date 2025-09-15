@@ -1,4 +1,4 @@
---  Write a query to display the employee names and their manager names where both the employee and the manager have the same job
+--  Write a query to display the employee names and their manager names where both the employee and the manager have the same  job
 select e1.ename,
        e2.ename
   from emp e1,
